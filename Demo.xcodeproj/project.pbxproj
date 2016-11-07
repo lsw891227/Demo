@@ -14,6 +14,7 @@
 		B3A55FFE1DD094FD0041E9CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3A55FFD1DD094FD0041E9CD /* Assets.xcassets */; };
 		B3A560011DD094FD0041E9CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3A55FFF1DD094FD0041E9CD /* LaunchScreen.storyboard */; };
 		B3A5600C1DD094FE0041E9CD /* DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A5600B1DD094FE0041E9CD /* DemoUITests.m */; };
+		B3A560181DD096C20041E9CD /* UIView+MLKit.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A560171DD096C20041E9CD /* UIView+MLKit.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		B3A560071DD094FE0041E9CD /* DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3A5600B1DD094FE0041E9CD /* DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoUITests.m; sourceTree = "<group>"; };
 		B3A5600D1DD094FE0041E9CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3A560161DD096C20041E9CD /* UIView+MLKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MLKit.h"; sourceTree = "<group>"; };
+		B3A560171DD096C20041E9CD /* UIView+MLKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MLKit.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +89,8 @@
 				B3A55FF71DD094FD0041E9CD /* ViewController.h */,
 				B3A55FF81DD094FD0041E9CD /* ViewController.m */,
 				B3A55FFA1DD094FD0041E9CD /* Main.storyboard */,
+				B3A560161DD096C20041E9CD /* UIView+MLKit.h */,
+				B3A560171DD096C20041E9CD /* UIView+MLKit.m */,
 				B3A55FFD1DD094FD0041E9CD /* Assets.xcassets */,
 				B3A55FFF1DD094FD0041E9CD /* LaunchScreen.storyboard */,
 				B3A560021DD094FD0041E9CD /* Info.plist */,
@@ -215,6 +220,7 @@
 			files = (
 				B3A55FF91DD094FD0041E9CD /* ViewController.m in Sources */,
 				B3A55FF61DD094FD0041E9CD /* AppDelegate.m in Sources */,
+				B3A560181DD096C20041E9CD /* UIView+MLKit.m in Sources */,
 				B3A55FF31DD094FD0041E9CD /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -410,6 +416,7 @@
 				B3A560121DD094FE0041E9CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B3A560131DD094FE0041E9CD /* Build configuration list for PBXNativeTarget "DemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -418,6 +425,7 @@
 				B3A560151DD094FE0041E9CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
