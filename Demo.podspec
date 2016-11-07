@@ -10,9 +10,9 @@ Testing Private Podspec.
 DESC
 
 s.homepage         = "https://github.com/lsw891227/Demo"
-# s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
+# s.screenshots    = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
 
-s.license          = 'MIT'              #开源协议
+s.license          = { :type => 'MIT', :file =>'README.md' }
 
 s.author           = { "liushuangwei" => "932181121@qq.com" }                   #作者信息
 
@@ -23,7 +23,7 @@ s.source           = { :git => "https://github.com/lsw891227/Demo.git", :tag => 
 s.platform     = :ios, '8.0'            #支持的平台及版本
 s.requires_arc = true                   #是否使用ARC，如果指定具体文件，则具体的问题使用ARC
 
-s.source_files = 'Demo/UIView+MLKit'
+s.source_files = 'Demo/Demo/UIView+MLKit.{h,m}'
 
 
 #s.public_header_files = 'Pod/Classes/**/*.h'   #公开头文件地址
